@@ -1,0 +1,7 @@
+.container{
+    background-color: white;
+}
+.plane{
+    width: 200px;
+    transform: translateX(100px) rotate3D(60deg);
+}
