@@ -6,12 +6,10 @@
     <title>Document</title>
 </head>
 <body>
+    <p id="intro">Hello World</p>
     <script>
-        let sum = 0;
-        for (let i = 1; i <=10; i++){
-            sum += 1;
-        }
-        document.write("The sum is: " + sum);
+        var txt=document.getElementById("intro").innerText;
+        document.writeln("<br>"+txt);
     </script>
 </body>
 </html>
